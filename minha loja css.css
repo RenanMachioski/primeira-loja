@@ -1,0 +1,113 @@
+body
+{
+  background-image: radial-gradient(circle at center center, transparent,rgb(33,33,33)),repeating-linear-gradient(135deg, rgb(33,33,33) 0px, rgb(33,33,33) 2px,transparent 2px, 
+  transparent 10px,rgb(33,33,33) 10px, rgb(33,33,33) 11px,transparent 11px, transparent 21px),repeating-linear-gradient(45deg, rgb(47,47,47) 0px, rgb(47,47,47) 4px,transparent 4px, 
+  transparent 8px),linear-gradient(90deg, rgb(33,33,33),rgb(33,33,33));
+}
+ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #5c5c5c9f;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+ }
+  
+  li a:hover {
+    background-color: grey;
+  }
+/*pra cima barra de contacts*/  
+
+/*pra baixo galeria de imagens*/
+div.gallery {
+    margin: 0 auto;
+    border: 1px solid #ffffff;
+    float: left;
+    width: 220px;
+    height: auto;
+  }
+  
+ 
+  
+  div.gallery:hover {
+    border: 2px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    color:white;
+  }
+  /*dropdown a baixo*/
+  .dropdonw {
+
+    position: relative;
+    display: inline-block;
+    margin-bottom: 30px;
+    margin-right: 5px;
+}
+
+.dropdonw__content {
+
+    position: center;
+    background-color: #808080;
+    min-width: 500px;
+    margin-top: 100px;
+    box-shadow: 0 10px 20px 5px rgb(255, 255, 255);
+    z-index: 1;
+    display: none;
+}
+
+.dropdown:hover .dropdonw__content {
+    display: block;
+}
+
+.tetx {
+
+    font-size: 12px;
+    text-align: center;
+    padding: 20px 15px;
+}
+
+.bnt {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 8px 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+.bnt-1 {
+  background-color: #747474;
+}
+.footer {
+  width: 100%;
+  padding: 1rem;
+  background-color: var(--black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #777777;
+  font-size: 1rem;
+  text-align: center;
+}
